@@ -20,7 +20,9 @@ export const Porfolio = () => {
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i>
+                  <p className="portfolio-item-caption-content text-center text-white"> Webs personales </p>
+                  </div>
                 </div>
                 <img className="img-fluid" src="assets/img/portfolio/personal.png" alt="webs personales" />
               </div>
@@ -30,7 +32,9 @@ export const Porfolio = () => {
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i>
+                    <p className="portfolio-item-caption-content text-center text-white"> Webs de entretenimiento </p>
+                  </div>
                 </div>
                 <img className="img-fluid" src="assets/img/portfolio/game.png" alt="webs de entretenimiento" />
               </div>
@@ -40,7 +44,9 @@ export const Porfolio = () => {
             <div className="col-md-6 col-lg-4 mb-5">
               <div className="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
                 <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i></div>
+                  <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x"></i>
+                    <p className="portfolio-item-caption-content text-center text-white"> Webs de negocios </p>
+                  </div>
                 </div>
                 <img className="img-fluid" src="assets/img/portfolio/negocio.png" alt="webs de negocios" />
               </div>
